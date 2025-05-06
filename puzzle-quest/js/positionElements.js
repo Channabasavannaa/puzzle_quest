@@ -29,9 +29,7 @@ class PositionElements {
   }
 
   randomImage() {
-    return fetch('https://source.unsplash.com/random/1920x1080').then((res) => {
-      this.imageURL = "/images/cyberpunk2.jpg"
-    })
+    this.imageURL = "/images/cyberpunk2.jpg";
   }
 
   async addDraggableDivs() {
